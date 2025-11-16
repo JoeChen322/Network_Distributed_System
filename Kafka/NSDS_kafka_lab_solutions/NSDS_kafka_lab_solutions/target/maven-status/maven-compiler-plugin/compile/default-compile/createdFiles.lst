@@ -1,0 +1,6 @@
+it\polimi\nsds\kafka\admin\TopicManager.class
+it\polimi\nsds\kafka\lab\AtomicForwarder.class
+it\polimi\nsds\kafka\lab\BasicProducer.class
+it\polimi\nsds\kafka\lab\ConsoleConsumer.class
+it\polimi\nsds\kafka\lab\LowerCaseConsumer.class
+it\polimi\nsds\kafka\lab\AtomicCountForwarder.class

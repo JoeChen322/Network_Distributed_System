@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Run Consumer1 (Exactly Once)",
+            "request": "launch",
+            "mainClass": "it.polimi.nsds.kafka.eval.Consumers1",
+            "projectName": "NSDS24_kafka_eval",
+            "args": "1 group1"
+        },
+        {
+            "type": "java",
+            "name": "Run Consumer2 (No Guarantees)",
+            "request": "launch",
+            "mainClass": "it.polimi.nsds.kafka.eval.Consumers1",
+            "projectName": "NSDS24_kafka_eval",
+            "args": "2 group2"
+        },
+        {
+            "type": "java",
+            "name": "Run Producer",
+            "request": "launch",
+            "mainClass": "it.polimi.nsds.kafka.eval.Producer",
+            "projectName": "NSDS24_kafka_eval",
+            "args": ""
+        }
+    ]
+}

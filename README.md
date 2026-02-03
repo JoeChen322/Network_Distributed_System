@@ -1,6 +1,6 @@
 # About network system for distrubyted system across 
 * Spark
-* RedNode
+* MPI
 * Kafka
 * Akka
 * IoT (MQTT)
